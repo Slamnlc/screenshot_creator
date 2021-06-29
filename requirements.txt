@@ -1,0 +1,4 @@
+Pillow~=8.2.0
+adict~=0.1.7
+PyAutoGUI~=0.9.52
+PyQt5~=5.15.4
