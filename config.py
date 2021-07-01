@@ -1,5 +1,7 @@
 from sys import platform
 
+from PyQt5.QtCore import Qt
+
 if platform == "linux" or platform == "linux2":
     PLATFORM = 'linux'
 elif platform == "darwin":
@@ -16,6 +18,7 @@ TRANSPARENCY = 0.4
 BACKGROUND_COLOR = 'systemTransparent'
 MOUSE_ICON = '0.png'
 PEN_WIDTH = 5
+SELECT_RECTANGLE_COLOR = Qt.red
 
 SCREENSHOT_PATH = '/Users/maksim/PycharmProjects/screenshot_creator/screenshots/'
 SCREENSHOT_FORMAT = 'PNG'
